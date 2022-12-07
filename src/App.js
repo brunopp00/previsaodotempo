@@ -21,7 +21,7 @@ function App() {
     <div className="App">
         <nav className='navbar navbar-expand-md navbar-dark bg-dark mb-4'>
             <a className='navbar-brand' href='#top'>
-                Previsão do Tempo
+               Bruno Fröhlich | Previsão do Tempo
             </a>
         </nav>
         <main className='container'>
@@ -51,7 +51,8 @@ function App() {
                             </div>
                             <div>
                                 <h3>Hoje o dia está: {previsao.current.condition.text}</h3>
-                                <p className='lead'>Temp: {previsao.current.temp_c}</p>
+                                <p className='lead'>Temp: {previsao.current.temp_c}ºC</p>
+                                <p className='lead'>Estado: {previsao.location.region}</p>
                             </div>
                         </div>
                     </div>}
