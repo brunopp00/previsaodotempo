@@ -1,7 +1,7 @@
 {
   "name": "previsaodotempo",
   "version": "0.1.0",
-  "homepage": "github-page",
+  "homepage": "previsaodotempo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
